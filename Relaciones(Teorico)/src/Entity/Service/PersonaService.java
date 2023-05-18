@@ -23,5 +23,6 @@ public class PersonaService {
     
     public void imprimirPersona(Persona persona){
         System.out.println(persona.toString());
-    }
+    }  
+   
 }

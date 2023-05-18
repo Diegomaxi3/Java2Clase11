@@ -20,6 +20,7 @@ public class RelacionesTeorico {
         PersonaService ps = new PersonaService();
         Persona persona =  ps.crearPersona();
         ps.imprimirPersona(persona);
+        System.out.println("Serie: " + persona.getDni().getSerie() + ", Nro: " + persona.getDni().getNro());
     }
     
 }
